@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./chosenMajorStyle.css">
 
     <title>My Major</title>
   </head>
@@ -53,47 +54,189 @@
         </div>
       </div>
 
-      <!--Cards of Majors-->
-    <div class="container">
-        <div class="container">
-            <div class="row">
-              <div class="col"><div class="card" style="width: 18rem;">
-                <img src="./assets/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Database Design</h5>
-                  <p class="card-text">I like creating databases and puzzling out how each piece of data relates to each other</p>
- 
-                </div>
-              </div></div>
-              <div class="col"><div class="card" style="width: 18rem;">
-                <img src="./assets/Essentials-of-Java-programming-that-every-beginner-should-know.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Java Programming</h5>
-                  <p class="card-text">I am excited to learn more about Java not only because I enjoy learning languages but also because whenever I look up jobs that appeal to me, knowledge about Java is usually  required.</p>
-           
-                </div>
-              </div></div>
-              <div class="w-100"></div>
-              <div class="col"><div class="card" style="width: 18rem;">
-                <img src="./assets/imgpsh_fullsize_anim-1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Programming and 'C' and "C#"</h5>
-                  <p class="card-text">I enjoy learning programming languages so I am excited for all my classes where I will learn coding.</p>
-                  
-                </div>
-              </div></div>
-              <div class="col"><div class="card" style="width: 18rem;">
-                <img src="./assets/How-To-Design-Database-1-2.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Database-Driven Web Programming: Client Side</h5>
-                  <p class="card-text">This seems like this will be a very practical class. Because in most companies, the database and the website are intrinsically related. I am excited to see what I will learn in this class.</p>
-                
-                </div>
-              </div></div>
-            </div>
-          </div>
-     
     </div>
+
+    <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Intro to Networking
+          </button>
+        </h2>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+    
+          <p>Provides an overview of networking, including a history of development and the uses and benefits of networks. Students are introduced to major network components with a discussion of critical selection considerations. Covers the prerequisite concepts necessary for the Microsoft program and will provide background information for the Cisco certification program.</p>
+        </div>
+      </div>
+    </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Programming Logic
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>Introduces programming logic, emphasizing best practices and design methodology. Makes use of pseudocode and flowcharts to cover procedural and object-oriented programming, along with variables, constants, file input/output, arrays, modularization, and structured programming concepts</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Java Programming
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>Introduces programming in Java. This course will cover the basic features of Java, including procedural programming (datatypes, variables, operators, control structures, etc.), an introduction to object-oriented programming concepts (objects and classes, abstraction, encapsulation, and inheritance), GUI programming, error handling with exceptions, and other Java technologies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Database Design
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>Focuses on the use and development of a database program, with an emphasis on loading, modifying and querying capabilities. Topics include storage devices, data design, administration, analysis and implementation, data structures, indexed and direct file organizations, and hierarchical network and relational models.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Management Information Systems
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>Focuses on the role of information systems in the management process, with emphasis on the various aspects of processing data, characteristics of communication and information, and problem solving.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Programming in 'C'
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>Introduces programming in the 'C' language with an emphasis on basic input/output functions. Topics include interactive programming, style and methodology, top-down design and structured programming. </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSeven">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Computer Operating Systems
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>This course provides an overview of computer operating systems. Basic theories, concepts and terminology, and evolution of computer operating systems are covered. Development, function, and comparisons of common mobile, desktop, and server operating systems are discussed. In particular, this class is meant to introduce concepts such as user interfaces, file systems, process management, memory management and input/output management and communication.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEight">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              Systems Analysis
+            </button>
+          </h2>
+        </div>
+        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>Focuses on the systems development life cycle, with an emphasis on identifying and assessing system requirements, analyzing and designing new systems in relation to use in business</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingNine">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              Programming in C#
+            </button>
+          </h2>
+        </div>
+        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>An introductory course to programming in the C# language. Emphasis is placed on the basic data, methods and classes of the C# language. Additionally, object oriented programming concepts will be introduced. Programming style and object oriented methodology will be stressed throughout the course</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTen">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              Java Advanced
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>A continuation of COP 2800. The focus is on software development workflow tasks (requirements, design, testing, deployment). Topics include advanced object orientated and functional programming in Java, collections, multi-threading, files, database use, and other features of modern Java.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              Introduction to XML Authoring
+            </button>
+          </h2>
+        </div>
+        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>This course teaches students how to use XML to create customized tags for Web pages and to work effectively with XML. Students will develop Web sites integrating XML into their projects. </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwelve">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              Business Communications
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+          <div class="card-body">
+      
+            <p>Presents an overview of business communications, including international considerations, and focuses on constructing proper business letters, with an emphasis on various styles, such as sales, claims, credit reference, collection, requests, order and refusal. Preparation for and formatting of proposals and business reports is also included.</p>
+          </div>
+        </div>
+      </div>
       </body>
       
 

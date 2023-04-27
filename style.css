@@ -4,3 +4,10 @@
 .card-body{
     width: 70%
 }
+.jumbotron{
+    background-color: #466c77;
+    color: white
+}
+nav{
+    background-color: grey;
+}
