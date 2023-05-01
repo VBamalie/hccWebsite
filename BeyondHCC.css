@@ -1,0 +1,16 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.carousel-inner{
+    width: 80%;
+}
+.card-img-top{
+    width: 50%;
+}
+.card{
+    border: none;
+    background-color: transparent;
+}

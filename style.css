@@ -6,8 +6,30 @@
 }
 .jumbotron{
     background-color: #DCCDE8;
-    color: white
+    box-shadow: #B37BA4 -1px 10px 10px;
+}
+h1{
+    font-family: 'Bruno Ace', cursive;
 }
 .navbar{
     background-color: #B37BA4;
+    border-color: black 5px;
+}
+body{
+    background-color: #DCCDE8;
+}
+.jumbocontainer{
+    margin-left: 12%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-lg{
+    width: 20%;
+    background-color: #065481;
+}
+a{
+    color:#065481;
+
 }
