@@ -13,4 +13,6 @@ img{
 .jumbocontainer{
     margin-left: 12%;
 }
-
+.card-body{
+    width: 100%;
+}

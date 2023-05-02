@@ -14,3 +14,10 @@
     border: none;
     background-color: transparent;
 }
+.card-body{
+    width: 70%;
+    background-color: white;
+    margin-top: 12px;
+    border-radius: 5px;
+    box-shadow: #B37BA4 5px 5px 20px;
+}
